@@ -35,6 +35,12 @@ end
 group :development, :test do
   gem 'rspec-rails'
   gem 'capybara'
+  gem 'guard-rspec'
+  gem 'rb-fsevent'
+  gem 'growl'
+  gem 'guard-spork'
+  gem 'spork'
+  gem 'spork-rails', github: 'railstutorial/spork-rails'
 end
 
 group :production do
